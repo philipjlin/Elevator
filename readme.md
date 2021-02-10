@@ -8,7 +8,7 @@
 This program simulates the operation of an elevator, where passengers get on and get off at various floors.
 
 
-##Class Overview
+## Class Overview
 Domain Objects <br>
     - Building - keeps track of elevator objects and floor objects associated with the building. The elevator and floor objects are accessed through methods defined in the building class. <br>
 
