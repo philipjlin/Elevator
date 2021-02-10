@@ -1,0 +1,34 @@
+HW3 - CSCIE55
+Elevator3
+Philip Lin
+
+Classes
+
+package cscie55.hw3
+ - Building.java
+ - Elevator.java
+ - ElevatorFullException.java
+ - Floor.java
+ - Passenger.java
+
+package cscie55.hw3test
+ - HW2\3ElevatorSimulationTest.java
+
+
+Implementation
+
+A class defining a building object was implemented to keep track of elevator objects and floor objects associated with the building. The elevator and floor objects are accessed through methods defined in the building class.
+
+A class defining an elevator object was implemented, which has methods that define the movement of the elevator as well as the boarding and getting off of passengers going up and down the floors of the building.
+
+A class defining a floor object was implemented, which keeps track of the floors of the building and the number of passengers residing or waiting for the elevator on each particular floor of the building.
+
+A class defining a passenger object was implemented, which represents a passenger that can reside in a building, wait for the elevator, and board the elevator to travel up and down floors to a desired destination floor.
+
+JUnit testing was used to check the functionality of the program. The elevator moved up and down the floors and boarded and disembarked passengers correctly. 
+Passengers waiting for elevators on their respective floors boarded the elevator up to the elevator's capacity, and were dropped off at their destinations.
+
+
+Execution
+
+Packaged the source code and test file into a jar file HW3.jar with the IDE.
