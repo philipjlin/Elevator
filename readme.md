@@ -22,6 +22,8 @@ Developed in Java.
         - Elevator - contains methods that define the movement of the elevator as well as the boarding and getting off of passengers going up and down the floors of the building. <br>
         - Floor - keeps track of the floors of the building and the number of passengers residing or waiting for the elevator on each particular floor of the building. <br>
         - Passenger - represents a passenger that can reside in a building, wait for the elevator, and board the elevator to travel up and down floors to a desired destination floor.
-        
+
+<br>
+
     Main
         - Main - initializes the simulation.
